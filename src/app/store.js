@@ -5,23 +5,12 @@ import authReducer from './auth-slice';
 
 
 
-
-//const store = legacy_createStore(counterSlice.reducer)
-
 const store = configureStore({
   reducer: {
     counter: counterReducer,
     auth: authReducer
   }
 })
-
-// export const store = configureStore({
-//   reducer: {
-//     counter: counterReducer,
-//   },
-// });
-
-
 
 
 
